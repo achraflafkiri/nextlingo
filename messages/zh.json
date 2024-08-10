@@ -1,0 +1,28 @@
+{
+  "IndexPage": {
+    "title": "next-intl 示例",
+    "description": "欢迎来到 Next.js 国际化 (i18n) 示例！这个演示展示了 App Router 的强大功能以及如何使用 next-intl 流畅地管理多语言内容。"
+  },
+  "NotFoundPage": {
+    "title": "页面未找到",
+    "description": "哎呀！看起来您找到了一个不存在的页面。不要担心，我们的国际化魔法在应用程序的其他地方仍然在努力工作。请返回以继续探索！"
+  },
+  "Navigation": {
+    "home": "首页",
+    "about": "关于我们",
+    "contact": "联系",
+    "services": "服务",
+    "blogs": "博客",
+    "single-blog": "单篇博客",
+    "not-found-page": "页面未找到",
+    "features": "功能"
+  },
+  "Banner": {
+    "title": "我们创建数字解决方案",
+    "subtitle": "我们是一家专注于支持企业数字化转型的网页开发和设计机构。我们将提供一个旨在提升您的销售并更好地说服您的目标的网页/移动解决方案。",
+    "button": "开始"
+  },
+  "Footer": {
+    "copyright": "© 2024 您的应用程序。版权所有。"
+  }
+}

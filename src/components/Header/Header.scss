@@ -1,0 +1,19 @@
+.header {
+    background-image: #fff;
+    background-color: rgba(255, 255, 255, .37);
+    padding: .625em 6.25em;
+    border: 1.5px solid #fff;
+    border-radius: 2.1875em;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+    width: 100%;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

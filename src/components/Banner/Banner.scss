@@ -1,0 +1,66 @@
+.banner {
+    .banner_box {
+        z-index: 0;
+        -webkit-backdrop-filter: blur();
+        backdrop-filter: blur();
+        background-color: rgba(255, 255, 255, .37);
+        border: 1.5px solid #fff;
+        border-radius: 2.1875em;
+        width: 100%;
+        // min-height: 90vh;
+        padding: 4.625em 6.25em;
+        position: relative;
+        text-align: center;
+    }
+
+    .box_header {
+        width: 70%;
+        margin: auto;
+
+        .hero_title {
+            background-image: linear-gradient(to right, #5014ad, #8e13a6 25%, #c5109a 51%, #f22379 79%, #ff3067);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 65px;
+            font-weight: 700;
+            line-height: 1.1;
+        }
+
+        .hero_subtitle {
+            color: #3b2a82;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+
+        .btn {
+            background-color: #ff3067;
+            border: 1px solid #ff7298;
+            border-radius: 1.25em;
+            width: auto;
+            padding: 10px 20px;
+            font-size: .9875em;
+            box-shadow: 0 15px 45px rgba(255, 48, 103, .35);
+            color: #fff;
+        }
+    }
+
+    .companies {
+        .company_list {
+            display: inline-flex;
+
+
+            li {
+                list-style: none;
+
+                &:not(:last-child) {
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+}

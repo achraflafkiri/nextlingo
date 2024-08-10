@@ -1,0 +1,28 @@
+{
+  "IndexPage": {
+    "title": "exemple next-intl",
+    "description": "Bienvenue dans l'exemple de Next.js Internationalization (i18n) ! Cette démo montre la puissance du App Router et comment gérer le contenu multilingue de manière fluide avec next-intl."
+  },
+  "NotFoundPage": {
+    "title": "Page Non Trouvée",
+    "description": "Oups ! Il semble que vous ayez trouvé une page qui n'existe pas. Ne vous inquiétez pas, notre magie d'internationalisation continue de fonctionner dur ailleurs dans l'application. Veuillez revenir pour explorer davantage !"
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact",
+    "services": "Services",
+    "blogs": "Blogs",
+    "single-blog": "Blog Unique",
+    "not-found-page": "Page Non Trouvée",
+    "features": "Fonctionnalités"
+  },
+  "Banner": {
+    "title": "Nous Créons La Solution Digitale",
+    "subtitle": "Nous sommes une agence de développement et de design web spécialisée dans le soutien aux entreprises dans leur transformation digitale. Nous fournirons une solution web/mobile visant à améliorer vos ventes et mieux convaincre votre cible.",
+    "button": "Commencer"
+  },
+  "Footer": {
+    "copyright": "© 2024 Votre Application. Tous droits réservés."
+  }
+}
