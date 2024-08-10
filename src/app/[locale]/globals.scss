@@ -1,6 +1,12 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import '@fortawesome/fontawesome-free/css/all.min.css';
 
+$primaryColor: #5014ad; // Main color
+$secondaryColor: #8e13a6; // Secondary color
+$tertiaryColor: #c5109a; // Tertiary color
+$quaternaryColor: #f22379; // Quaternary color
+$quinaryColor: #ff3067; // Quinary color
+
 body {
     background-color: #E2D9F4;
 }
@@ -32,4 +38,12 @@ body {
 .wrapper {
     max-width: 1700px;
     margin: auto;
+}
+
+.section_title {
+    font-weight: 800;
+}
+
+.section_subtitle {
+    font-weight: 800;
 }

@@ -2,7 +2,7 @@ import { useTranslations } from 'next-intl';
 import React from 'react';
 import "./Banner.scss";
 import { companies } from "./companies"
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 
 const Banner = () => {
     const t = useTranslations('Banner');
@@ -27,7 +27,7 @@ const Banner = () => {
                                 <ul className="company_list">
                                     {
                                         companies.map((company: {
-                                            name: string; id: React.Key | null | undefined; src: string | undefined;
+                                            id: number, name: string, src: StaticImageData
                                         }) => (
                                             <li key={company.id}>
                                                 <Image src={company.src} width={80} height={80} alt={company.name} />
@@ -36,6 +36,11 @@ const Banner = () => {
                                     }
                                 </ul>
                             </div>
+
+                            <div className="voice_call_button mt-5 active">
+                                {/* Task To AI */}
+                            </div>
+
                         </div>
 
                     </div>

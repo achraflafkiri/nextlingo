@@ -1,3 +1,39 @@
+@mixin color-change-animation($color1, $color2, $color3, $color4, $color5, $during) {
+    @keyframes colorChangeAnimation {
+        0% {
+            background-image: linear-gradient(45deg, $color1, $color2 25%, $color3 51%, $color4 79%, $color5);
+        }
+
+        50% {
+            background-image: linear-gradient(60deg, $color2, $color3 25%, $color4 51%, $color5 79%, $color1);
+        }
+
+        100% {
+            background-image: linear-gradient(80deg, $color1, $color2 25%, $color3 51%, $color4 79%, $color5);
+        }
+    }
+
+    animation: colorChangeAnimation $during ease-in-out infinite;
+}
+
+@mixin shadow-animation($color1, $color2, $color3, $color4, $color5, $during) {
+    @keyframes shadowAnimation {
+        0% {
+            box-shadow: 0 0 10px $color1;
+        }
+
+        50% {
+            box-shadow: 0 0 30px $color2;
+        }
+
+        100% {
+            box-shadow: 0 0 10px $color3;
+        }
+    }
+
+    animation: shadowAnimation $during ease-in-out infinite;
+}
+
 .banner {
     .banner_box {
         z-index: 0;
@@ -7,7 +43,6 @@
         border: 1.5px solid #fff;
         border-radius: 2.1875em;
         width: 100%;
-        // min-height: 90vh;
         padding: 4.625em 6.25em;
         position: relative;
         text-align: center;
@@ -36,7 +71,6 @@
             line-height: 1.2;
         }
 
-
         .btn {
             background-color: #ff3067;
             border: 1px solid #ff7298;
@@ -53,7 +87,6 @@
         .company_list {
             display: inline-flex;
 
-
             li {
                 list-style: none;
 
@@ -61,6 +94,23 @@
                     padding-right: 10px;
                 }
             }
+        }
+    }
+
+    .voice_call_button {
+        width: 80px;
+        height: 80px;
+        box-shadow: 0 15px 45px rgba(255, 48, 103, .35);
+        border: 1.5px solid #fff;
+        border-radius: 50%;
+        margin: auto;
+        cursor: pointer;
+        @include color-change-animation(#ad14ad, #8e13a6, #c5109a, #f22379, #ff3067, 1s);
+        @include shadow-animation(#b80f34, #8e13a6, #c5109a, #f22379, #ff3067, 1s);
+        animation: colorChangeAnimation .3s linear infinite, shadowAnimation 1s ease-in-out infinite;
+
+        &.active {
+            // animation: colorChangeAnimation .1s linear infinite, shadowAnimation 1s ease-in-out infinite;
         }
     }
 }

@@ -22,6 +22,26 @@
     "subtitle": "Experience the future of communication with our AI voice app. Effortlessly interact, manage tasks, and control your world using just your voice.",
     "button": "Get Started Now"
   },
+  "Price": {
+    "title": "See results from day one.",
+    "subtitle": "Pricing that pays for itself. Whether you are a startup, an agency, or an enterprise, let AdCreative.ai pay for itself on your first ad.",
+    "freeTrialDescription": "Perfect for trying out our service with basic features and no cost.",
+    "basicPlanDescription": "Ideal for small businesses and startups with essential features.",
+    "proPlanDescription": "Advanced features for growing companies with additional support.",
+    "enterprisePlanDescription": "Comprehensive solution with all features and premium support.",
+    "feature1": "Credits: 10",
+    "feature2": "Brand Limit: 1",
+    "feature3": "Storage: 1GB",
+    "feature4": "All AI Assets Unlocked",
+    "feature5": "Text Generator AI",
+    "feature6": "Unlimited Generations",
+    "feature7": "Ad Creative Insights AI",
+    "feature8": "Unlimited Photos by iStock",
+    "feature9": "Competitor Insights Access",
+    "feature10": "Additional User: 1",
+    "feature11": "Unlimited Access",
+    "feature12": "Unlimited Photos by iStock"
+  },
   "Footer": {
     "copyright": "© 2024 Your App. All rights reserved."
   }

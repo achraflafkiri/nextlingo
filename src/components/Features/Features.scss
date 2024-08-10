@@ -1,0 +1,14 @@
+.features {
+    .features_grid {
+        display: flex;
+        align-items: center;
+
+        .features_grid_item {
+            width: 200px;
+            padding: 20px 30px;
+            background-color: #fff;
+            border: 1px solid #fff;
+            border-radius: 1.25em;
+        }
+    }
+}

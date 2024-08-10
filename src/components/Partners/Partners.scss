@@ -1,0 +1,46 @@
+.partners {
+    .section_title {
+        font-size: 2.4em;
+        text-align: center;
+        color: #3B2A82;
+
+    }
+
+    .section_subtitle {
+        font-size: 20px;
+        text-align: center;
+        color: #7a719b;
+    }
+
+    .partners_cards {
+        grid-column-gap: 1.25em;
+        grid-row-gap: 1.25em;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 87.5em;
+        margin-bottom: 4em;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+
+        .company-wrapper {
+            border: 1px solid var(--white);
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, .7);
+            border-radius: 1.5625em;
+            justify-content: center;
+            align-items: center;
+            width: 9.8em;
+            height: 5.625em;
+            display: flex;
+            box-shadow: 0 2px 80px rgba(59, 42, 130, .06);
+
+            .company-icon.is-renault {
+                aspect-ratio: 47/50;
+                width: 4em;
+            }
+        }
+    }
+
+}
