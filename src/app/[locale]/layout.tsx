@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import './globals.scss';
-import Header from '@/components/Header/Header';
+// import Header from '@/components/Header/Header';
+import Header2 from '@/components/Header2/Header';
 import Footer from '@/components/footer';
+import "@/scss/main.scss"
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -25,7 +26,8 @@ export default function RootLayout({
     <html lang={locale}>
       <body className={inter.className}>
         <div className='flex flex-col min-h-screen max-w-4xl mx-auto'>
-          <Header />
+          {/* <Header /> */}
+          <Header2 />
           <div className='flex-grow'>{children}</div>
           <Footer />
         </div>
